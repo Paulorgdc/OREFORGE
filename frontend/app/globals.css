@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ore: #ff2d78;
+  --accent-gold: #f59e0b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: #080b14;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Barra de XP animada */
+@keyframes xp-fill {
+  from {
+    width: 0;
+  }
+}
+
+.xp-bar {
+  animation: xp-fill 0.8s ease-out;
+}

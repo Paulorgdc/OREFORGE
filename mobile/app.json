@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "OreForge",
+    "slug": "oreforge",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#080b14"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#080b14"
+      },
+      "package": "com.oreforge.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "52c8f69f-8213-4ea4-83ec-db4ca4860e1d"
+      }
+    }
+  }
+}
